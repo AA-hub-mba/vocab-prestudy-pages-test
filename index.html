@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulary Pre-study GitHub Pages Test</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { max-width: 42rem; margin: 0 auto; padding: 1.25rem; line-height: 1.5; }
+    .card { border: 1px solid #8886; border-radius: 1rem; padding: 1rem; margin-top: 1rem; }
+    button { min-height: 2.75rem; padding: .6rem 1rem; border-radius: .7rem; border: 1px solid #888; font: inherit; }
+    textarea { width: 100%; box-sizing: border-box; }
+  </style>
+</head>
+<body>
+  <main>
+    <p>GitHub Pages smoke test</p>
+    <h1>Vocabulary pre-study static site</h1>
+    <p>This is a one-file public static test. It does not use ChatGPT, Netlify, an API key, or learner data.</p>
+    <section class="card">
+      <h2>Current snapshot</h2>
+      <dl>
+        <dt>Content version</dt><dd>github-pages-smoke-2026-11-06-v1</dd>
+        <dt>Lesson status</dt><dd>smoke-test-only</dd>
+      </dl>
+    </section>
+    <section class="card">
+      <h2>Interaction checks</h2>
+      <label for="uncertainty">Uncertainty note</label>
+      <textarea id="uncertainty" rows="3"></textarea>
+      <p><button id="tts" type="button">Play en-GB TTS</button> <button id="copy" type="button">Copy payload</button></p>
+      <p id="status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <script>
+    const status = document.querySelector('#status');
+    document.querySelector('#tts').addEventListener('click', () => {
+      if (!('speechSynthesis' in window)) { status.textContent = 'TTS unavailable'; return; }
+      speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance('GitHub Pages British English pronunciation test');
+      utterance.lang = 'en-GB';
+      speechSynthesis.speak(utterance);
+      status.textContent = 'TTS requested with lang=en-GB.';
+    });
+    document.querySelector('#copy').addEventListener('click', async () => {
+      const payload = { schema_version: 'prestudy-smoke-v1', content_version: 'github-pages-smoke-2026-11-06-v1', uncertainty: document.querySelector('#uncertainty').value, submitted_at: new Date().toISOString() };
+      try { await navigator.clipboard.writeText(JSON.stringify(payload, null, 2)); status.textContent = 'Payload copied.'; }
+      catch { status.textContent = JSON.stringify(payload); }
+    });
+  </script>
+</body>
+</html>
