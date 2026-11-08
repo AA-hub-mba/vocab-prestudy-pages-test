@@ -1,0 +1,337 @@
+{
+  "schema_version": "prestudy-snapshot-v1",
+  "content_version": "2026-11-06-core-01-v2-draft",
+  "lesson_date": "2026-11-06",
+  "track": "core",
+  "lesson_id": "2026-11-06-core-01",
+  "activation_status": "draft",
+  "topic": "Adapting to change and choosing an approach",
+  "vocabulary": [
+    {
+      "lemma": "adapt",
+      "british_pronunciation": "/əˈdæpt/",
+      "meaning_zh_hant": "適應；改編；調整以適合",
+      "meaning_en": "to change so that something works in a new situation",
+      "inflections": [
+        "adapts",
+        "adapted",
+        "adapting"
+      ],
+      "collocations": [
+        "adapt to change",
+        "adapt to a new environment",
+        "adapt a plan",
+        "adapt an approach"
+      ],
+      "near_synonyms": [
+        {
+          "lemma": "adjust",
+          "distinction": "usually a smaller change"
+        },
+        {
+          "lemma": "modify",
+          "distinction": "change one part of something"
+        }
+      ],
+      "member_cards": [
+        {
+          "lemma": "adapt",
+          "priority": "core",
+          "parts_of_speech": [
+            "verb"
+          ],
+          "meaning_zh_hant": "適應；調整",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "change so something works in a new situation",
+              "example": "We need to adapt our study plan."
+            }
+          ]
+        },
+        {
+          "lemma": "adaptation",
+          "priority": "high",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "meaning_zh_hant": "改編；適應",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "a change made to suit a new situation",
+              "example": "The adaptation took several weeks."
+            }
+          ]
+        },
+        {
+          "lemma": "adaptable",
+          "priority": "high",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "meaning_zh_hant": "適應力強的",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "able to change or be changed for a new situation",
+              "example": "She is adaptable in unfamiliar settings."
+            }
+          ]
+        },
+        {
+          "lemma": "adaptive",
+          "priority": "medium",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "meaning_zh_hant": "適應性的",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "changing in response to conditions",
+              "example": "The system uses adaptive practice."
+            }
+          ]
+        },
+        {
+          "lemma": "adaptability",
+          "priority": "medium",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "meaning_zh_hant": "適應能力",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "the ability to change for a new situation",
+              "example": "Adaptability is useful in a changing workplace."
+            }
+          ]
+        },
+        {
+          "lemma": "adaptively",
+          "priority": "low",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "meaning_zh_hant": "以適應性方式",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "in a way that changes in response to conditions",
+              "example": "The system adjusts adaptively."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "approach",
+      "british_pronunciation": "/əˈprəʊtʃ/",
+      "meaning_zh_hant": "方法；途徑；接近；處理問題",
+      "meaning_en": "a way of dealing with a problem or situation; to deal with something in a particular way",
+      "inflections": [
+        "approaches",
+        "approached",
+        "approaching"
+      ],
+      "collocations": [
+        "take an approach",
+        "a practical approach",
+        "approach a problem",
+        "a new approach to learning"
+      ],
+      "near_synonyms": [
+        {
+          "lemma": "method",
+          "distinction": "a clearer procedure"
+        },
+        {
+          "lemma": "strategy",
+          "distinction": "a plan for reaching a goal"
+        }
+      ],
+      "member_cards": [
+        {
+          "lemma": "approach",
+          "priority": "core/high",
+          "parts_of_speech": [
+            "noun",
+            "verb"
+          ],
+          "meaning_zh_hant": "方法；處理；對待",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "a way of dealing with a problem",
+              "example": "We need a practical approach."
+            },
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "deal with a problem in a particular way",
+              "example": "They approached the problem carefully."
+            }
+          ]
+        },
+        {
+          "lemma": "approachable",
+          "priority": "medium",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "meaning_zh_hant": "容易接近；平易近人",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "friendly and easy to talk to",
+              "example": "The teacher was approachable."
+            }
+          ]
+        },
+        {
+          "lemma": "approachability",
+          "priority": "low",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "meaning_zh_hant": "平易近人；容易接近的特質",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "the quality of being easy to talk to",
+              "example": "Her approachability helped the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "benefit",
+      "british_pronunciation": "/ˈbenɪfɪt/",
+      "meaning_zh_hant": "好處；益處；受益",
+      "meaning_en": "a helpful result or advantage; to gain help or an advantage",
+      "inflections": [
+        "benefits",
+        "benefited",
+        "benefiting"
+      ],
+      "collocations": [
+        "the benefits of",
+        "benefit from experience",
+        "benefit greatly",
+        "a significant benefit"
+      ],
+      "near_synonyms": [
+        {
+          "lemma": "advantage",
+          "distinction": "a favourable condition"
+        },
+        {
+          "lemma": "profit",
+          "distinction": "usually financial gain"
+        }
+      ],
+      "member_cards": [
+        {
+          "lemma": "benefit",
+          "priority": "core/high",
+          "parts_of_speech": [
+            "noun",
+            "verb"
+          ],
+          "meaning_zh_hant": "好處；益處；受益",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "a helpful result or advantage",
+              "example": "The main benefit is flexibility."
+            },
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "gain help or an advantage",
+              "example": "Students benefit from repeated exposure."
+            }
+          ]
+        },
+        {
+          "lemma": "beneficial",
+          "priority": "high",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "meaning_zh_hant": "有益的",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "producing a helpful result",
+              "example": "Regular review is beneficial."
+            }
+          ]
+        },
+        {
+          "lemma": "beneficiary",
+          "priority": "medium",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "meaning_zh_hant": "受益者",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "a person or group that receives a benefit",
+              "example": "The patient was the main beneficiary."
+            }
+          ]
+        },
+        {
+          "lemma": "beneficially",
+          "priority": "low",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "meaning_zh_hant": "有益地",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "in a way that produces a helpful result",
+              "example": "The changes affected the process beneficially."
+            }
+          ]
+        },
+        {
+          "lemma": "beneficiaries",
+          "priority": "low",
+          "parts_of_speech": [
+            "plural noun"
+          ],
+          "meaning_zh_hant": "受益者（複數）",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "plural noun",
+              "meaning_en": "people or groups that receive a benefit",
+              "example": "The beneficiaries received support."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "self_checks": [
+    {
+      "prompt": "Identify one inflection and one derivational member of adapt."
+    },
+    {
+      "prompt": "How many member cards are under approach, and which card has two parts of speech?"
+    },
+    {
+      "prompt": "Choose a collocation for benefit."
+    },
+    {
+      "prompt": "Write a new sentence with an adaptable person or system."
+    },
+    {
+      "prompt": "Give a short response: How can a team adapt to change?"
+    }
+  ]
+}
