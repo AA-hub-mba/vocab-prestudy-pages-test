@@ -1,337 +1,459 @@
 {
   "schema_version": "prestudy-snapshot-v1",
-  "content_version": "2026-11-06-core-01-v2-draft",
-  "lesson_date": "2026-11-06",
-  "track": "core",
-  "lesson_id": "2026-11-06-core-01",
-  "activation_status": "draft",
-  "topic": "Adapting to change and choosing an approach",
+  "content_version": "2026-11-09-core-01-v2-prestudy",
+  "lesson_date": "2026-11-09",
+  "pack_id": "2026-W46-2026-11-09",
+  "lesson_id": "2026-11-09-core-01",
+  "page_id": "2026-11-09-core-01-v2-prestudy",
+  "activation_status": "prestudy_ready",
+  "generated_at": "2026-11-09T15:40:52+08:00",
+  "source_sha256": "9a5a9b889e8903f68c730407d001b44c9fbb64966a9d4431c950b37d032bf6a8",
+  "track": "core_everyday + context_responsive",
+  "topic": "Comparing routines and clarifying a community plan",
+  "canonical_writeback": "blocked_until_chat_validation",
+  "feedback_mode": "copy_to_chat",
+  "family_box_policy": "one_family_box_one_member_card_per_spelling_grouped_pos_senses",
+  "tts": {
+    "language": "en-GB",
+    "controls": [
+      "normal",
+      "slow",
+      "replay"
+    ],
+    "playback_is_not_mastery_evidence": true
+  },
+  "active_checks": [
+    "recognition",
+    "meaning_recall",
+    "collocation",
+    "new_context",
+    "short_response"
+  ],
   "vocabulary": [
     {
-      "lemma": "adapt",
-      "british_pronunciation": "/əˈdæpt/",
-      "meaning_zh_hant": "適應；改編；調整以適合",
-      "meaning_en": "to change so that something works in a new situation",
+      "lemma": "clarify",
+      "parts_of_speech": [
+        "verb"
+      ],
+      "meaning_en": "make something clear or easier to understand",
+      "meaning_zh_hant": "澄清；使更清楚",
       "inflections": [
-        "adapts",
-        "adapted",
-        "adapting"
+        "clarifies",
+        "clarified",
+        "clarifying"
       ],
       "collocations": [
-        "adapt to change",
-        "adapt to a new environment",
-        "adapt a plan",
-        "adapt an approach"
+        "clarify a point",
+        "clarify a question",
+        "clarify the situation"
       ],
       "near_synonyms": [
         {
-          "lemma": "adjust",
-          "distinction": "usually a smaller change"
-        },
-        {
-          "lemma": "modify",
-          "distinction": "change one part of something"
+          "lemma": "explain",
+          "distinction": "give information; clarify makes something less confusing or more precise"
         }
       ],
       "member_cards": [
         {
-          "lemma": "adapt",
+          "lemma": "clarify",
+          "parts_of_speech": [
+            "verb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "make something clear or easier to understand",
+              "example": "Could you clarify the final step?",
+              "priority": "core"
+            }
+          ],
           "priority": "core",
-          "parts_of_speech": [
-            "verb"
-          ],
-          "meaning_zh_hant": "適應；調整",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "verb",
-              "meaning_en": "change so something works in a new situation",
-              "example": "We need to adapt our study plan."
-            }
-          ]
+          "meaning_zh_hant": "澄清；說明清楚"
         },
         {
-          "lemma": "adaptation",
-          "priority": "high",
+          "lemma": "clarification",
           "parts_of_speech": [
             "noun"
           ],
-          "meaning_zh_hant": "改編；適應",
           "senses_by_pos": [
             {
               "part_of_speech": "noun",
-              "meaning_en": "a change made to suit a new situation",
-              "example": "The adaptation took several weeks."
+              "meaning_en": "an explanation that makes something clear",
+              "example": "Could you provide some clarification on the schedule?",
+              "priority": "high"
             }
-          ]
-        },
-        {
-          "lemma": "adaptable",
+          ],
           "priority": "high",
-          "parts_of_speech": [
-            "adjective"
-          ],
-          "meaning_zh_hant": "適應力強的",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "able to change or be changed for a new situation",
-              "example": "She is adaptable in unfamiliar settings."
-            }
-          ]
+          "meaning_zh_hant": "澄清；進一步說明"
         },
         {
-          "lemma": "adaptive",
-          "priority": "medium",
-          "parts_of_speech": [
-            "adjective"
-          ],
-          "meaning_zh_hant": "適應性的",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "changing in response to conditions",
-              "example": "The system uses adaptive practice."
-            }
-          ]
-        },
-        {
-          "lemma": "adaptability",
-          "priority": "medium",
+          "lemma": "clarity",
           "parts_of_speech": [
             "noun"
           ],
-          "meaning_zh_hant": "適應能力",
           "senses_by_pos": [
             {
               "part_of_speech": "noun",
-              "meaning_en": "the ability to change for a new situation",
-              "example": "Adaptability is useful in a changing workplace."
+              "meaning_en": "the quality of being clear and easy to understand",
+              "example": "The instructions lack clarity.",
+              "priority": "medium"
             }
-          ]
+          ],
+          "priority": "medium",
+          "meaning_zh_hant": "清晰；清楚程度"
         },
         {
-          "lemma": "adaptively",
-          "priority": "low",
+          "lemma": "clarifying",
           "parts_of_speech": [
-            "adverb"
+            "participle"
           ],
-          "meaning_zh_hant": "以適應性方式",
           "senses_by_pos": [
             {
-              "part_of_speech": "adverb",
-              "meaning_en": "in a way that changes in response to conditions",
-              "example": "The system adjusts adaptively."
+              "part_of_speech": "participle used before a noun",
+              "meaning_en": "making something clearer",
+              "example": "She asked a clarifying question.",
+              "priority": "medium"
             }
-          ]
+          ],
+          "priority": "medium",
+          "meaning_zh_hant": "有助澄清的（分詞用法）"
         }
+      ],
+      "british_pronunciation": "/ˈklær.ɪ.faɪ/",
+      "source_references": [
+        "https://dictionary.cambridge.org/dictionary/english/clarify"
       ]
     },
     {
-      "lemma": "approach",
-      "british_pronunciation": "/əˈprəʊtʃ/",
-      "meaning_zh_hant": "方法；途徑；接近；處理問題",
-      "meaning_en": "a way of dealing with a problem or situation; to deal with something in a particular way",
+      "lemma": "compare",
+      "parts_of_speech": [
+        "verb"
+      ],
+      "meaning_en": "examine two or more things to identify similarities or differences",
+      "meaning_zh_hant": "比較；對照",
       "inflections": [
-        "approaches",
-        "approached",
-        "approaching"
+        "compares",
+        "compared",
+        "comparing"
       ],
       "collocations": [
-        "take an approach",
-        "a practical approach",
-        "approach a problem",
-        "a new approach to learning"
+        "compare A with B",
+        "compare the results",
+        "a comparison between A and B",
+        "compare A to B",
+        "compared with / compared to"
       ],
       "near_synonyms": [
         {
-          "lemma": "method",
-          "distinction": "a clearer procedure"
-        },
-        {
-          "lemma": "strategy",
-          "distinction": "a plan for reaching a goal"
+          "lemma": "contrast",
+          "distinction": "focuses on differences; compare can examine similarities and differences"
         }
       ],
       "member_cards": [
         {
-          "lemma": "approach",
-          "priority": "core/high",
+          "lemma": "compare",
           "parts_of_speech": [
-            "noun",
             "verb"
           ],
-          "meaning_zh_hant": "方法；處理；對待",
           "senses_by_pos": [
             {
-              "part_of_speech": "noun",
-              "meaning_en": "a way of dealing with a problem",
-              "example": "We need a practical approach."
+              "part_of_speech": "verb",
+              "meaning_en": "examine two or more things to identify similarities or differences",
+              "example": "Compare the two routines before choosing one.",
+              "priority": "core"
             },
             {
               "part_of_speech": "verb",
-              "meaning_en": "deal with a problem in a particular way",
-              "example": "They approached the problem carefully."
+              "meaning_en": "describe something as similar to something else",
+              "example": "She compared the city to a maze.",
+              "priority": "high"
             }
-          ]
-        },
-        {
-          "lemma": "approachable",
-          "priority": "medium",
-          "parts_of_speech": [
-            "adjective"
           ],
-          "meaning_zh_hant": "容易接近；平易近人",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "friendly and easy to talk to",
-              "example": "The teacher was approachable."
-            }
-          ]
+          "priority": "core",
+          "meaning_zh_hant": "比較；比擬"
         },
         {
-          "lemma": "approachability",
-          "priority": "low",
+          "lemma": "comparison",
           "parts_of_speech": [
             "noun"
           ],
-          "meaning_zh_hant": "平易近人；容易接近的特質",
           "senses_by_pos": [
             {
               "part_of_speech": "noun",
-              "meaning_en": "the quality of being easy to talk to",
-              "example": "Her approachability helped the team."
+              "meaning_en": "an examination of similarities and differences",
+              "example": "The comparison revealed an important difference.",
+              "priority": "high"
+            }
+          ],
+          "priority": "high",
+          "meaning_zh_hant": "比較；對照"
+        },
+        {
+          "lemma": "comparative",
+          "parts_of_speech": [
+            "adjective",
+            "noun"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "based on comparison, or true in relation to something else",
+              "example": "We discussed the comparative advantages of both plans.",
+              "priority": "medium"
+            },
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "a grammatical form such as better or smaller used when comparing",
+              "example": "Better is the comparative of good.",
+              "priority": "medium"
+            }
+          ],
+          "priority": "medium",
+          "meaning_zh_hant": "比較的；相對的；比較級"
+        },
+        {
+          "lemma": "comparatively",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "when compared with something else",
+              "example": "The new routine is comparatively flexible.",
+              "priority": "low"
+            }
+          ],
+          "priority": "low",
+          "meaning_zh_hant": "相對而言"
+        },
+        {
+          "lemma": "comparable",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "meaning_zh_hant": "可比的；相當的",
+          "priority": "high",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "similar enough in size or quality for a useful comparison",
+              "example": "The two courses are comparable in length.",
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "lemma": "comparably",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "meaning_zh_hant": "相若地",
+          "priority": "low",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "to a similar degree",
+              "example": "The two rooms are comparably priced.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "lemma": "comparability",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "meaning_zh_hant": "可比性",
+          "priority": "low",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "the extent to which things can usefully be compared",
+              "example": "Different methods reduce the comparability of the results.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "lemma": "incomparable",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "meaning_zh_hant": "無與倫比的",
+          "priority": "low",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "so outstanding that nothing else matches it",
+              "example": "The garden offers an incomparable view.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "lemma": "incomparably",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "meaning_zh_hant": "無可比擬地",
+          "priority": "low",
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "to a degree that is far beyond another",
+              "example": "The new route is incomparably safer.",
+              "priority": "low"
             }
           ]
         }
-      ]
+      ],
+      "british_pronunciation": "/kəmˈpeə/",
+      "source_references": [
+        "https://dictionary.cambridge.org/dictionary/english/compare"
+      ],
+      "usage_note": "Both with and to can introduce a comparison. Compare X to Y also commonly means liken X to Y; do not mark to wrong automatically."
     },
     {
-      "lemma": "benefit",
-      "british_pronunciation": "/ˈbenɪfɪt/",
-      "meaning_zh_hant": "好處；益處；受益",
-      "meaning_en": "a helpful result or advantage; to gain help or an advantage",
+      "lemma": "community",
+      "parts_of_speech": [
+        "noun"
+      ],
+      "meaning_en": "a group of people connected by place, identity, or activity",
+      "meaning_zh_hant": "社區；群體；共同體",
       "inflections": [
-        "benefits",
-        "benefited",
-        "benefiting"
+        "communities"
       ],
       "collocations": [
-        "the benefits of",
-        "benefit from experience",
-        "benefit greatly",
-        "a significant benefit"
+        "local community",
+        "community event",
+        "community support"
       ],
       "near_synonyms": [
         {
-          "lemma": "advantage",
-          "distinction": "a favourable condition"
-        },
-        {
-          "lemma": "profit",
-          "distinction": "usually financial gain"
+          "lemma": "society",
+          "distinction": "broader and can refer to a whole social system; community usually suggests a connected group"
         }
       ],
       "member_cards": [
         {
-          "lemma": "benefit",
-          "priority": "core/high",
-          "parts_of_speech": [
-            "noun",
-            "verb"
-          ],
-          "meaning_zh_hant": "好處；益處；受益",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "a helpful result or advantage",
-              "example": "The main benefit is flexibility."
-            },
-            {
-              "part_of_speech": "verb",
-              "meaning_en": "gain help or an advantage",
-              "example": "Students benefit from repeated exposure."
-            }
-          ]
-        },
-        {
-          "lemma": "beneficial",
-          "priority": "high",
-          "parts_of_speech": [
-            "adjective"
-          ],
-          "meaning_zh_hant": "有益的",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "producing a helpful result",
-              "example": "Regular review is beneficial."
-            }
-          ]
-        },
-        {
-          "lemma": "beneficiary",
-          "priority": "medium",
+          "lemma": "community",
           "parts_of_speech": [
             "noun"
           ],
-          "meaning_zh_hant": "受益者",
           "senses_by_pos": [
             {
               "part_of_speech": "noun",
-              "meaning_en": "a person or group that receives a benefit",
-              "example": "The patient was the main beneficiary."
+              "meaning_en": "a group of people connected by place, identity, or activity",
+              "example": "The local community organised a seasonal event.",
+              "priority": "core"
             }
-          ]
+          ],
+          "priority": "core",
+          "meaning_zh_hant": "社區；共同體；群體"
         },
         {
-          "lemma": "beneficially",
-          "priority": "low",
+          "lemma": "communal",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "shared by or involving a community",
+              "example": "They used a communal space for the meeting.",
+              "priority": "high"
+            }
+          ],
+          "priority": "high",
+          "meaning_zh_hant": "共用的；社群的"
+        },
+        {
+          "lemma": "communally",
           "parts_of_speech": [
             "adverb"
           ],
-          "meaning_zh_hant": "有益地",
           "senses_by_pos": [
             {
               "part_of_speech": "adverb",
-              "meaning_en": "in a way that produces a helpful result",
-              "example": "The changes affected the process beneficially."
+              "meaning_en": "in a way shared by a community",
+              "example": "The space is used communally.",
+              "priority": "low"
             }
-          ]
+          ],
+          "priority": "low",
+          "meaning_zh_hant": "共同地；集體地"
         },
         {
-          "lemma": "beneficiaries",
-          "priority": "low",
+          "lemma": "communality",
           "parts_of_speech": [
-            "plural noun"
+            "noun"
           ],
-          "meaning_zh_hant": "受益者（複數）",
+          "meaning_zh_hant": "共同性；共享特質",
+          "priority": "low",
           "senses_by_pos": [
             {
-              "part_of_speech": "plural noun",
-              "meaning_en": "people or groups that receive a benefit",
-              "example": "The beneficiaries received support."
+              "part_of_speech": "noun",
+              "meaning_en": "the quality of sharing interests or resources",
+              "example": "The project encouraged a sense of communality.",
+              "priority": "low"
             }
           ]
         }
+      ],
+      "british_pronunciation": "/kəˈmjuː.nə.ti/",
+      "source_references": [
+        "https://dictionary.cambridge.org/dictionary/english/community"
       ]
     }
   ],
+  "prestudy_steps": [
+    "Read the three family cards and member cards.",
+    "Say the canonical lemmas and important members aloud with en-GB TTS.",
+    "Complete the five self-checks.",
+    "Record any uncertainty about a sense, part of speech, or collocation."
+  ],
   "self_checks": [
     {
-      "prompt": "Identify one inflection and one derivational member of adapt."
+      "id": "sc1",
+      "type": "recognition",
+      "prompt": "In “Could you clarify the final step?”, clarify means: A make it shorter; B make it clearer; C make it stricter; D make it earlier."
     },
     {
-      "prompt": "How many member cards are under approach, and which card has two parts of speech?"
+      "id": "sc2",
+      "type": "meaning_recall",
+      "prompt": "Without looking at the cards, translate: 請你澄清最後一個步驟。"
     },
     {
-      "prompt": "Choose a collocation for benefit."
+      "id": "sc3",
+      "type": "collocation_choice",
+      "prompt": "Complete “Compare the morning routine ___ the evening routine.” Then explain whether another preposition is possible."
     },
     {
-      "prompt": "Write a new sentence with an adaptable person or system."
+      "id": "sc4",
+      "type": "new_context",
+      "prompt": "Complete: The local ______ organised a volunteer event."
     },
     {
-      "prompt": "Give a short response: How can a team adapt to change?"
+      "id": "sc5",
+      "type": "short_response",
+      "prompt": "Write two sentences: compare two study routines, then ask for clarification about one unclear detail."
     }
-  ]
+  ],
+  "uncertainty_note_schema": {
+    "item": "clarify | compare | community | clarification | comparative | communal",
+    "uncertainty_type": "meaning | pronunciation | collocation | synonym | grammar | other",
+    "my_question": "string",
+    "confidence": "clear | partial | uncertain"
+  },
+  "inventory_scope": "Verified learner-dictionary members and selected transparent derivatives; not a claim to list every historical or technical derivative.",
+  "confidence_metadata": {
+    "allowed_values": [
+      "clear",
+      "partial",
+      "uncertain"
+    ],
+    "counts_as_mastery_evidence": false
+  },
+  "public_source_note": "Study lesson snapshot; no learner data."
 }
