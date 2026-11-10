@@ -1,13 +1,16 @@
+Warning: truncated output (original token count: 3609)
+Total output lines: 459
+
 {
   "schema_version": "prestudy-snapshot-v1",
-  "content_version": "2026-11-10-core-01-v1-prestudy",
-  "lesson_date": "2026-11-10",
+  "content_version": "2026-11-09-core-01-v2-prestudy",
+  "lesson_date": "2026-11-09",
   "pack_id": "2026-W46-2026-11-09",
-  "lesson_id": "2026-11-10-core-01",
-  "page_id": "2026-11-10-core-01-v1-prestudy",
+  "lesson_id": "2026-11-09-core-01",
+  "page_id": "2026-11-09-core-01-v2-prestudy",
   "activation_status": "prestudy_ready",
-  "generated_at": "2026-11-10T08:00:00+08:00",
-  "source_sha256": "733d9c6682f9d437ba6a4d078f84db3570ef9194b49d5848863a1301f087994c",
+  "generated_at": "2026-11-09T15:40:52+08:00",
+  "source_sha256": "9a5a9b889e8903f68c730407d001b44c9fbb64966a9d4431c950b37d032bf6a8",
   "track": "core_everyday + context_responsive",
   "topic": "Comparing routines and clarifying a community plan",
   "canonical_writeback": "blocked_until_chat_validation",
@@ -64,262 +67,17 @@
               "part_of_speech": "verb",
               "meaning_en": "make something clear or easier to understand",
               "example": "Could you clarify the final step?",
-              "priority": "core"
-            }
-          ],
-          "priority": "core",
-          "meaning_zh_hant": "澄清；說明清楚"
-        },
-        {
-          "lemma": "clarification",
-          "parts_of_speech": [
-            "noun"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "an explanation that makes something clear",
-              "example": "Could you provide some clarification on the schedule?",
-              "priority": "high"
-            }
-          ],
-          "priority": "high",
-          "meaning_zh_hant": "澄清；進一步說明"
-        },
-        {
-          "lemma": "clarity",
-          "parts_of_speech": [
-            "noun"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "the quality of being clear and easy to understand",
-              "example": "The instructions lack clarity.",
-              "priority": "medium"
-            }
-          ],
-          "priority": "medium",
-          "meaning_zh_hant": "清晰；清楚程度"
-        },
-        {
-          "lemma": "clarifying",
-          "parts_of_speech": [
-            "participle"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "participle used before a noun",
-              "meaning_en": "making something clearer",
-              "example": "She asked a clarifying question.",
-              "priority": "medium"
-            }
-          ],
-          "priority": "medium",
-          "meaning_zh_hant": "有助澄清的（分詞用法）"
-        }
-      ],
-      "british_pronunciation": "/ˈklær.ɪ.faɪ/",
+              "priority": "…2609 tokens truncated…juː.nə.ti/",
       "source_references": [
-        "https://dictionary.cambridge.org/dictionary/english/clarify"
+        "https://dictionary.cambridge.org/dictionary/english/community"
       ]
-    },
-    {
-      "lemma": "compare",
-      "parts_of_speech": [
-        "verb"
-      ],
-      "meaning_en": "examine two or more things to identify similarities or differences",
-      "meaning_zh_hant": "比較；對照",
-      "inflections": [
-        "compares",
-        "compared",
-        "comparing"
-      ],
-      "collocations": [
-        "compare A with B",
-        "compare the results",
-        "a comparison between A and B",
-        "compare A to B",
-        "compared with / compared to"
-      ],
-      "near_synonyms": [
-        {
-          "lemma": "contrast",
-          "distinction": "focuses on differences; compare can examine similarities and differences"
-        }
-      ],
-      "member_cards": [
-        {
-          "lemma": "compare",
-          "parts_of_speech": [
-            "verb"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "verb",
-              "meaning_en": "examine two or more things to identify similarities or differences",
-              "example": "Compare the two routines before choosing one.",
-              "priority": "core"
-            },
-            {
-              "part_of_speech": "verb",
-              "meaning_en": "describe something as similar to something else",
-              "example": "She compared the city to a maze.",
-              "priority": "high"
-            }
-          ],
-          "priority": "core",
-          "meaning_zh_hant": "比較；比擬"
-        },
-        {
-          "lemma": "comparison",
-          "parts_of_speech": [
-            "noun"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "an examination of similarities and differences",
-              "example": "The comparison revealed an important difference.",
-              "priority": "high"
-            }
-          ],
-          "priority": "high",
-          "meaning_zh_hant": "比較；對照"
-        },
-        {
-          "lemma": "comparative",
-          "parts_of_speech": [
-            "adjective",
-            "noun"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "based on comparison, or true in relation to something else",
-              "example": "We discussed the comparative advantages of both plans.",
-              "priority": "medium"
-            },
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "a grammatical form such as better or smaller used when comparing",
-              "example": "Better is the comparative of good.",
-              "priority": "medium"
-            }
-          ],
-          "priority": "medium",
-          "meaning_zh_hant": "比較的；相對的；比較級"
-        },
-        {
-          "lemma": "comparatively",
-          "parts_of_speech": [
-            "adverb"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adverb",
-              "meaning_en": "when compared with something else",
-              "example": "The new routine is comparatively flexible.",
-              "priority": "low"
-            }
-          ],
-          "priority": "low",
-          "meaning_zh_hant": "相對而言"
-        },
-        {
-          "lemma": "comparable",
-          "parts_of_speech": [
-            "adjective"
-          ],
-          "meaning_zh_hant": "可比的；相當的",
-          "priority": "high",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "similar enough in size or quality for a useful comparison",
-              "example": "The two courses are comparable in length.",
-              "priority": "high"
-            }
-          ]
-        },
-        {
-          "lemma": "comparably",
-          "parts_of_speech": [
-            "adverb"
-          ],
-          "meaning_zh_hant": "相若地",
-          "priority": "low",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adverb",
-              "meaning_en": "to a similar degree",
-              "example": "The two rooms are comparably priced.",
-              "priority": "low"
-            }
-          ]
-        },
-        {
-          "lemma": "comparability",
-          "parts_of_speech": [
-            "noun"
-          ],
-          "meaning_zh_hant": "可比性",
-          "priority": "low",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "the extent to which things can usefully be compared",
-              "example": "Different methods reduce the comparability of the results.",
-              "priority": "low"
-            }
-          ]
-        },
-        {
-          "lemma": "incomparable",
-          "parts_of_speech": [
-            "adjective"
-          ],
-          "meaning_zh_hant": "無與倫比的",
-          "priority": "low",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "so outstanding that nothing else matches it",
-              "example": "The garden offers an incomparable view.",
-              "priority": "low"
-            }
-          ]
-        },
-        {
-          "lemma": "incomparably",
-          "parts_of_speech": [
-            "adverb"
-          ],
-          "meaning_zh_hant": "無可比擬地",
-          "priority": "low",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adverb",
-              "meaning_en": "to a degree that is far beyond another",
-              "example": "The new route is incomparably safer.",
-              "priority": "low"
-            }
-          ]
-        }
-      ],
-      "british_pronunciation": "/kəmˈpeə/",
-      "source_references": [
-        "https://dictionary.cambridge.org/dictionary/english/compare"
-      ],
-      "usage_note": "Both with and to can introduce a comparison. Compare X to Y also commonly means liken X to Y; do not mark to wrong automatically."
     }
   ],
   "prestudy_steps": [
-    "Review the clarify and compare family boxes.",
-    "Say each lemma and member aloud with en-GB TTS.",
+    "Read the three family cards and member cards.",
+    "Say the canonical lemmas and important members aloud with en-GB TTS.",
     "Complete the five self-checks.",
-    "Return numbered answers and uncertainty notes in chat."
+    "Record any uncertainty about a sense, part of speech, or collocation."
   ],
   "self_checks": [
     {
@@ -340,7 +98,7 @@
     {
       "id": "sc4",
       "type": "new_context",
-      "prompt": "Complete: I asked for a ______ because the instructions were unclear."
+      "prompt": "Complete: The local ______ organised a volunteer event."
     },
     {
       "id": "sc5",
@@ -349,7 +107,7 @@
     }
   ],
   "uncertainty_note_schema": {
-    "item": "clarify | compare | clarification | clarity | clarifying | comparison | comparative | comparatively",
+    "item": "clarify | compare | community | clarification | comparative | communal",
     "uncertainty_type": "meaning | pronunciation | collocation | synonym | grammar | other",
     "my_question": "string",
     "confidence": "clear | partial | uncertain"
