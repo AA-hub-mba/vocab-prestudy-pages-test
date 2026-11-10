@@ -1,18 +1,15 @@
-Warning: truncated output (original token count: 3609)
-Total output lines: 459
-
 {
   "schema_version": "prestudy-snapshot-v1",
-  "content_version": "2026-11-09-core-01-v2-prestudy",
-  "lesson_date": "2026-11-09",
+  "content_version": "2026-11-11-core-01-v1-prestudy",
+  "lesson_date": "2026-11-11",
   "pack_id": "2026-W46-2026-11-09",
-  "lesson_id": "2026-11-09-core-01",
-  "page_id": "2026-11-09-core-01-v2-prestudy",
+  "lesson_id": "2026-11-11-core-01",
+  "page_id": "2026-11-11-core-01-v1-prestudy",
   "activation_status": "prestudy_ready",
-  "generated_at": "2026-11-09T15:40:52+08:00",
-  "source_sha256": "9a5a9b889e8903f68c730407d001b44c9fbb64966a9d4431c950b37d032bf6a8",
-  "track": "core_everyday + context_responsive",
-  "topic": "Comparing routines and clarifying a community plan",
+  "generated_at": "2026-11-11T00:15:38+08:00",
+  "source_sha256": "dd56068c70818159e93e421b5370af36a0889044895a768f75bef094224b8771",
+  "track": "core_everyday",
+  "topic": "Considering decisions and ensuring useful outcomes",
   "canonical_writeback": "blocked_until_chat_validation",
   "feedback_mode": "copy_to_chat",
   "family_box_policy": "one_family_box_one_member_card_per_spelling_grouped_pos_senses",
@@ -23,7 +20,8 @@ Total output lines: 459
       "slow",
       "replay"
     ],
-    "playback_is_not_mastery_evidence": true
+    "playback_is_not_mastery_evidence": true,
+    "optional": true
   },
   "active_checks": [
     "recognition",
@@ -34,85 +32,516 @@ Total output lines: 459
   ],
   "vocabulary": [
     {
-      "lemma": "clarify",
+      "lemma": "consider",
+      "family_id": "consider",
       "parts_of_speech": [
         "verb"
       ],
-      "meaning_en": "make something clear or easier to understand",
-      "meaning_zh_hant": "澄清；使更清楚",
+      "meaning_en": "weigh a possible action; assess facts; regard something in a particular way; take needs into account",
+      "meaning_zh_hant": "考慮；認為；顧及",
+      "british_pronunciation": "/kənˈsɪdə/",
       "inflections": [
-        "clarifies",
-        "clarified",
-        "clarifying"
+        "considers",
+        "considered",
+        "considering"
       ],
       "collocations": [
-        "clarify a point",
-        "clarify a question",
-        "clarify the situation"
+        "consider a proposal",
+        "consider doing",
+        "consider whether to do",
+        "consider someone/something (to be) + noun/adjective",
+        "give careful consideration to",
+        "take costs into consideration",
+        "under consideration",
+        "consideration for others"
       ],
       "near_synonyms": [
         {
-          "lemma": "explain",
-          "distinction": "give information; clarify makes something less confusing or more precise"
+          "lemma": "think about",
+          "distinction": "a broad everyday expression; consider often involves weighing a decision or factor, without implying a decision has been made"
+        },
+        {
+          "lemma": "considerate / considerable",
+          "distinction": "considerate concerns care for others; considerable concerns a large amount or degree. Compare considerable expense / considerably cheaper."
         }
       ],
       "member_cards": [
         {
-          "lemma": "clarify",
+          "lemma": "consider",
+          "priority": "core",
+          "meaning_zh_hant": "考慮；認為；顧及",
           "parts_of_speech": [
             "verb"
           ],
           "senses_by_pos": [
             {
               "part_of_speech": "verb",
-              "meaning_en": "make something clear or easier to understand",
-              "example": "Could you clarify the final step?",
-              "priority": "…2609 tokens truncated…juː.nə.ti/",
+              "meaning_en": "weigh a possible action or relevant facts; use consider doing, not consider to do",
+              "example": "We are considering renting a smaller office.",
+              "priority": "core"
+            },
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "regard someone or something in a particular way",
+              "example": "I consider the revised timetable practical.",
+              "priority": "core"
+            },
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "take another person’s needs into account",
+              "example": "Please consider the needs of staff who travel by bus.",
+              "priority": "core"
+            }
+          ],
+          "inflections": [
+            "considers",
+            "considered",
+            "considering"
+          ]
+        },
+        {
+          "lemma": "consideration",
+          "priority": "high",
+          "meaning_zh_hant": "考慮；體諒；考量因素",
+          "parts_of_speech": [
+            "noun [uncountable]",
+            "noun [countable]"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun [uncountable]",
+              "meaning_en": "careful thought",
+              "example": "After careful consideration, we chose the smaller venue.",
+              "priority": "high"
+            },
+            {
+              "part_of_speech": "noun [countable]",
+              "meaning_en": "a factor relevant to a decision",
+              "example": "Travel time is an important consideration.",
+              "priority": "high"
+            },
+            {
+              "part_of_speech": "noun [uncountable]",
+              "meaning_en": "care for other people’s needs",
+              "example": "Show consideration for your neighbours.",
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "lemma": "considered",
+          "priority": "medium",
+          "meaning_zh_hant": "經過深思的；亦為 consider 的過去式／過去分詞",
+          "parts_of_speech": [
+            "adjective",
+            "verb (past / past participle)"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "reached after thought",
+              "example": "Her considered response addressed both risks.",
+              "priority": "medium"
+            },
+            {
+              "part_of_speech": "verb (past / past participle)",
+              "meaning_en": "past or passive form of consider",
+              "example": "The proposal was considered yesterday.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "lemma": "considering",
+          "priority": "medium",
+          "meaning_zh_hant": "考慮到；就情況而言；亦為 consider 的現在分詞",
+          "parts_of_speech": [
+            "verb (present participle)",
+            "preposition",
+            "conjunction",
+            "adverb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "verb (present participle)",
+              "meaning_en": "thinking about a possible action",
+              "example": "We are considering a later start.",
+              "priority": "medium"
+            },
+            {
+              "part_of_speech": "preposition",
+              "meaning_en": "taking a fact into account",
+              "example": "Considering the short notice, attendance was good.",
+              "priority": "medium"
+            },
+            {
+              "part_of_speech": "conjunction",
+              "meaning_en": "taking the fact in a following clause into account",
+              "example": "Attendance was good, considering we sent the invitations yesterday.",
+              "priority": "medium"
+            },
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "given the circumstances; recognition only today",
+              "example": "The event went well, considering.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "lemma": "considerate",
+          "priority": "priority",
+          "meaning_zh_hant": "體貼的",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "attentive to other people’s needs; distinguish from considerable",
+              "example": "It was considerate of you to keep the corridor quiet.",
+              "priority": "priority"
+            }
+          ]
+        },
+        {
+          "lemma": "considerately",
+          "priority": "low",
+          "meaning_zh_hant": "體貼地",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "in a thoughtful way towards others",
+              "example": "The host considerately offered a quieter seat.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "lemma": "inconsiderate",
+          "priority": "medium",
+          "meaning_zh_hant": "不體諒他人的",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "showing insufficient care for other people’s needs",
+              "example": "Blocking the shared doorway is inconsiderate.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "lemma": "inconsiderately",
+          "priority": "low",
+          "meaning_zh_hant": "不體貼地",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "without due regard for others",
+              "example": "He inconsiderately left his bag across the aisle.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "lemma": "considerable",
+          "priority": "high",
+          "meaning_zh_hant": "相當多的；相當大的",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "substantial in amount or importance; distinguish from considerate",
+              "example": "The move would involve considerable expense.",
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "lemma": "considerably",
+          "priority": "medium",
+          "meaning_zh_hant": "相當大程度地",
+          "parts_of_speech": [
+            "adverb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "to a substantial degree",
+              "example": "The second room is considerably brighter.",
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "lemma": "inconsiderable",
+          "priority": "optional",
+          "meaning_zh_hant": "微不足道的（正式／較少用；辨認即可）",
+          "parts_of_speech": [
+            "adjective"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "small or unimportant; not inconsiderable can express a substantial amount",
+              "example": "The saving was inconsiderable.",
+              "priority": "optional"
+            }
+          ]
+        },
+        {
+          "lemma": "reconsider",
+          "priority": "medium",
+          "meaning_zh_hant": "重新考慮（屈折：reconsiders, reconsidered, reconsidering）",
+          "parts_of_speech": [
+            "verb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "think again about a decision",
+              "example": "The delay made us reconsider our departure date.",
+              "priority": "medium"
+            }
+          ],
+          "inflections": [
+            "reconsiders",
+            "reconsidered",
+            "reconsidering"
+          ]
+        },
+        {
+          "lemma": "reconsideration",
+          "priority": "low",
+          "meaning_zh_hant": "重新考慮",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "renewed consideration of a decision",
+              "example": "The committee requested reconsideration of the proposal.",
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "lemma": "unconsidered",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        },
+        {
+          "lemma": "considerateness",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        },
+        {
+          "lemma": "inconsiderateness",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        },
+        {
+          "lemma": "inconsideration",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        },
+        {
+          "lemma": "inconsiderably",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        },
+        {
+          "lemma": "considerableness",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        },
+        {
+          "lemma": "inconsiderableness",
+          "priority": "optional",
+          "parts_of_speech": [
+            "pending_verification"
+          ],
+          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
+          "senses_by_pos": [],
+          "verification_status": "pending_verification"
+        }
+      ],
       "source_references": [
-        "https://dictionary.cambridge.org/dictionary/english/community"
-      ]
+        "https://dictionary.cambridge.org/dictionary/english/consider",
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/word-patterns-consider",
+        "https://www.collinsdictionary.com/dictionary/english/consideration",
+        "https://dictionary.cambridge.org/dictionary/english/considered",
+        "https://dictionary.cambridge.org/us/dictionary/english/considering",
+        "https://dictionary.cambridge.org/dictionary/english/considerate",
+        "https://dictionary.cambridge.org/us/dictionary/english/considerately",
+        "https://dictionary.cambridge.org/dictionary/english/inconsiderate",
+        "https://www.collinsdictionary.com/dictionary/english/inconsiderately",
+        "https://dictionary.cambridge.org/us/dictionary/english/considerable",
+        "https://dictionary.cambridge.org/us/dictionary/english/inconsiderable",
+        "https://dictionary.cambridge.org/dictionary/english/reconsider",
+        "https://dictionary.cambridge.org/us/dictionary/english/reconsideration"
+      ],
+      "skipped_senses": [
+        {
+          "member": "consideration",
+          "status": "skipped_low_value",
+          "scope": "legal/payment senses"
+        }
+      ],
+      "usage_note": "consider + object; consider doing. Do not use consider about + object for contemplating an action. Low/optional members remain recognition-first."
+    },
+    {
+      "lemma": "ensure",
+      "family_id": "ensure",
+      "parts_of_speech": [
+        "verb"
+      ],
+      "meaning_en": "make an outcome or condition certain",
+      "meaning_zh_hant": "確保",
+      "british_pronunciation": "/ɪnˈʃɔː/",
+      "inflections": [
+        "ensures",
+        "ensured",
+        "ensuring"
+      ],
+      "collocations": [
+        "ensure access",
+        "ensure accuracy",
+        "ensure that + clause"
+      ],
+      "near_synonyms": [
+        {
+          "lemma": "make sure",
+          "distinction": "a more conversational alternative; ensure is common in formal instructions"
+        },
+        {
+          "lemma": "clarify",
+          "distinction": "clarify makes an unclear instruction understandable; ensure makes a desired outcome certain"
+        }
+      ],
+      "member_cards": [
+        {
+          "lemma": "ensure",
+          "priority": "core",
+          "meaning_zh_hant": "確保",
+          "parts_of_speech": [
+            "verb"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "make an outcome or condition certain",
+              "example": "A spare battery helps ensure that the recorder keeps running.",
+              "priority": "core"
+            },
+            {
+              "part_of_speech": "verb",
+              "meaning_en": "make certain that a condition is met",
+              "example": "The organisers must ensure access for wheelchair users.",
+              "priority": "core"
+            }
+          ],
+          "inflections": [
+            "ensures",
+            "ensured",
+            "ensuring"
+          ]
+        }
+      ],
+      "source_references": [
+        "https://dictionary.cambridge.org/dictionary/learner-english/ensure",
+        "https://dictionary.cambridge.org/us/dictionary/essential-british-english/ensure"
+      ],
+      "usage_note": "No standalone noun/adjective derivative established in the scoped learner entries; assurance and insurance are not automatically assigned to this family. No universal simple antonym."
     }
   ],
   "prestudy_steps": [
-    "Read the three family cards and member cards.",
-    "Say the canonical lemmas and important members aloud with en-GB TTS.",
-    "Complete the five self-checks.",
-    "Record any uncertainty about a sense, part of speech, or collocation."
+    "Read the consider and ensure family boxes in manageable chunks.",
+    "Prioritise core and priority members; retain low/optional cards for recognition.",
+    "Complete the written self-checks; listening and oral work are optional and not required today.",
+    "Return numbered answers and uncertainty notes to the teaching chat."
   ],
   "self_checks": [
     {
       "id": "sc1",
       "type": "recognition",
-      "prompt": "In “Could you clarify the final step?”, clarify means: A make it shorter; B make it clearer; C make it stricter; D make it earlier."
+      "prompt": "A manager says, “We are considering closing the office on Fridays.” Has the decision necessarily been made? Explain your reasoning."
     },
     {
       "id": "sc2",
-      "type": "meaning_recall",
-      "prompt": "Without looking at the cards, translate: 請你澄清最後一個步驟。"
+      "type": "collocation",
+      "prompt": "Correct “We are considering to move the workshop upstairs” without changing the intended meaning. Explain the change."
     },
     {
       "id": "sc3",
-      "type": "collocation_choice",
-      "prompt": "Complete “Compare the morning routine ___ the evening routine.” Then explain whether another preposition is possible."
+      "type": "gap_fill",
+      "prompt": "Complete both: “The renovation required a ___ investment.” / “It was ___ of the builders to warn the neighbours about the noise.” Explain the difference."
     },
     {
       "id": "sc4",
-      "type": "new_context",
-      "prompt": "Complete: The local ______ organised a volunteer event."
+      "type": "meaning_recall",
+      "prompt": "Rewrite using consideration: “We must think about transport costs before choosing a venue.”"
     },
     {
       "id": "sc5",
+      "type": "new_context",
+      "prompt": "The booking instruction is ambiguous, and every guest must receive an access code. Write one message for each purpose, choosing the appropriate target words yourself."
+    },
+    {
+      "id": "sc6",
       "type": "short_response",
-      "prompt": "Write two sentences: compare two study routines, then ask for clarification about one unclear detail."
+      "prompt": "After a short break, hide the cards. Describe an undecided everyday decision and one factor to weigh using two consider-family members; give a new instruction using ensure in a different setting."
     }
   ],
   "uncertainty_note_schema": {
-    "item": "clarify | compare | community | clarification | comparative | communal",
+    "item": "consider | ensure | any listed member",
     "uncertainty_type": "meaning | pronunciation | collocation | synonym | grammar | other",
     "my_question": "string",
     "confidence": "clear | partial | uncertain"
   },
-  "inventory_scope": "Verified learner-dictionary members and selected transparent derivatives; not a claim to list every historical or technical derivative.",
+  "inventory_scope": "Source-scoped teaching inventory; pending members are visible but unverified. This is not an exhaustive historical inventory.",
   "confidence_metadata": {
     "allowed_values": [
       "clear",
