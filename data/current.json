@@ -1,15 +1,15 @@
 {
   "schema_version": "prestudy-snapshot-v1",
-  "content_version": "2026-11-11-core-01-v1-prestudy",
+  "content_version": "2026-11-11-core-01-v2-prestudy",
   "lesson_date": "2026-11-11",
   "pack_id": "2026-W46-2026-11-09",
   "lesson_id": "2026-11-11-core-01",
-  "page_id": "2026-11-11-core-01-v1-prestudy",
+  "page_id": "2026-11-11-core-01-v2-prestudy",
   "activation_status": "prestudy_ready",
-  "generated_at": "2026-11-11T00:15:38+08:00",
-  "source_sha256": "dd56068c70818159e93e421b5370af36a0889044895a768f75bef094224b8771",
+  "generated_at": "2026-11-11T00:38:56+08:00",
+  "source_sha256": "54134f418ae2c587a601a6e196a7352df7d7236a157d18ef2180bed6856806a7",
   "track": "core_everyday",
-  "topic": "Considering decisions and ensuring useful outcomes",
+  "topic": "First finish compare/community; then consider and ensure if time allows",
   "canonical_writeback": "blocked_until_chat_validation",
   "feedback_mode": "copy_to_chat",
   "family_box_policy": "one_family_box_one_member_card_per_spelling_grouped_pos_senses",
@@ -37,7 +37,7 @@
       "parts_of_speech": [
         "verb"
       ],
-      "meaning_en": "weigh a possible action; assess facts; regard something in a particular way; take needs into account",
+      "meaning_en": "weigh a possible action; assess facts; regard something in a particular way; take needs into account — Optional next material: complete due reviews and unfinished compare/community teaching first. Low/optional cards are recognition-only today.",
       "meaning_zh_hant": "考慮；認為；顧及",
       "british_pronunciation": "/kənˈsɪdə/",
       "inflections": [
@@ -102,7 +102,7 @@
         {
           "lemma": "consideration",
           "priority": "high",
-          "meaning_zh_hant": "考慮；體諒；考量因素",
+          "meaning_zh_hant": "考慮；體諒；考量因素；法律／酬金義本課略過（skipped_low_value）",
           "parts_of_speech": [
             "noun [uncountable]",
             "noun [countable]"
@@ -255,7 +255,7 @@
         {
           "lemma": "considerable",
           "priority": "high",
-          "meaning_zh_hant": "相當多的；相當大的",
+          "meaning_zh_hant": "相當多的；相當大的；方言名詞／舊式非標準副詞用法本課略過（skipped_low_value）",
           "parts_of_speech": [
             "adjective"
           ],
@@ -340,72 +340,158 @@
         {
           "lemma": "unconsidered",
           "priority": "optional",
+          "meaning_zh_hant": "未經考慮的；欠缺深思的（正式）",
           "parts_of_speech": [
-            "pending_verification"
+            "adjective"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
+          "verification_status": "verified",
+          "source_references": [
+            "https://www.oxfordlearnersdictionaries.com/definition/english/unconsidered"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "not thought about, or not thought through carefully; contrast with considered, not with considerate",
+              "example": "She regretted her unconsidered reply.",
+              "priority": "optional"
+            },
+            {
+              "part_of_speech": "adjective",
+              "meaning_en": "not previously considered",
+              "example": "The review revealed a previously unconsidered possibility.",
+              "priority": "optional"
+            }
+          ]
         },
         {
           "lemma": "considerateness",
           "priority": "optional",
+          "meaning_zh_hant": "體貼；體諒他人的特質（辨認即可）",
           "parts_of_speech": [
-            "pending_verification"
+            "noun"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
+          "verification_status": "verified",
+          "source_references": [
+            "https://www.collinsdictionary.com/us/dictionary/english/considerateness"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "thoughtfulness towards others; for everyday production prefer consideration for others or being considerate; rare careful-thought sense: skipped_low_value",
+              "example": "Her considerateness helped the new colleague feel welcome.",
+              "priority": "optional"
+            }
+          ]
         },
         {
           "lemma": "inconsiderateness",
           "priority": "optional",
+          "meaning_zh_hant": "不體貼；不顧他人的行為或特質（辨認即可）",
           "parts_of_speech": [
-            "pending_verification"
+            "noun [uncountable]"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
+          "verification_status": "verified",
+          "source_references": [
+            "https://dictionary.cambridge.org/us/dictionary/english/inconsiderateness"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun [uncountable]",
+              "meaning_en": "lack of regard for other people and their feelings",
+              "example": "His inconsiderateness upset the other passengers.",
+              "priority": "optional"
+            }
+          ]
         },
         {
           "lemma": "inconsideration",
           "priority": "optional",
+          "meaning_zh_hant": "不體諒；欠缺考慮（辨認即可）",
           "parts_of_speech": [
-            "pending_verification"
+            "noun"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
+          "verification_status": "verified",
+          "source_references": [
+            "https://ahdictionary.com/word/search.html?q=inconsideration"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "lack of consideration; dictionary-listed derivative; constructed recognition example, not a recommended everyday model. Prefer lack of consideration for active production. Archaic ill-advised sense: skipped_low_value",
+              "example": "They complained about his inconsideration for others.",
+              "priority": "optional"
+            }
+          ],
+          "example_status": "constructed_recognition_only"
         },
         {
           "lemma": "inconsiderably",
           "priority": "optional",
+          "meaning_zh_hant": "微不足道地；程度很小地（辨認即可）",
           "parts_of_speech": [
-            "pending_verification"
+            "adverb"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
-        },
-        {
-          "lemma": "considerableness",
-          "priority": "optional",
-          "parts_of_speech": [
-            "pending_verification"
+          "verification_status": "verified",
+          "source_references": [
+            "https://dictionary.cambridge.org/us/dictionary/english/inconsiderably"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
+          "senses_by_pos": [
+            {
+              "part_of_speech": "adverb",
+              "meaning_en": "to a small or unimportant degree; not inconsiderably can convey a substantial degree. Distinguish from inconsiderately, which concerns disregard for others",
+              "example": "The delay affected the result only inconsiderably.",
+              "priority": "optional"
+            },
+            {
+              "part_of_speech": "adverb (in not inconsiderably)",
+              "meaning_en": "to a substantial degree when negated",
+              "example": "The extra fare increased the cost not inconsiderably.",
+              "priority": "optional"
+            }
+          ],
+          "example_status": "constructed_recognition_only"
         },
         {
           "lemma": "inconsiderableness",
           "priority": "optional",
+          "meaning_zh_hant": "微不足道；不重要的程度（辨認即可）",
           "parts_of_speech": [
-            "pending_verification"
+            "noun"
           ],
-          "meaning_zh_hant": "待查證：義項、詞性與當代用法未核實；本次不要求使用。",
-          "senses_by_pos": [],
-          "verification_status": "pending_verification"
+          "verification_status": "verified",
+          "source_references": [
+            "https://www.merriam-webster.com/dictionary/inconsiderable"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "the quality of being small or unimportant; dictionary-listed derivative, not a default conversational choice. Prefer the small size of the difference in ordinary production",
+              "example": "They stressed the inconsiderableness of the difference.",
+              "priority": "optional"
+            }
+          ],
+          "example_status": "constructed_recognition_only"
+        },
+        {
+          "lemma": "considerer",
+          "priority": "optional",
+          "meaning_zh_hant": "考慮者（辨認即可）",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "verification_status": "verified",
+          "source_references": [
+            "https://www.collinsdictionary.com/dictionary/english/consider"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "someone who considers; dictionary listing does not establish common everyday use",
+              "example": "A careful considerer of alternatives may notice overlooked risks.",
+              "priority": "optional"
+            }
+          ],
+          "example_status": "constructed_recognition_only"
         }
       ],
       "source_references": [
@@ -421,13 +507,35 @@
         "https://dictionary.cambridge.org/us/dictionary/english/considerable",
         "https://dictionary.cambridge.org/us/dictionary/english/inconsiderable",
         "https://dictionary.cambridge.org/dictionary/english/reconsider",
-        "https://dictionary.cambridge.org/us/dictionary/english/reconsideration"
+        "https://dictionary.cambridge.org/us/dictionary/english/reconsideration",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/unconsidered",
+        "https://ahdictionary.com/word/search.html?q=inconsideration",
+        "https://www.merriam-webster.com/dictionary/inconsiderable",
+        "https://www.collinsdictionary.com/us/dictionary/english/considerateness",
+        "https://dictionary.cambridge.org/us/dictionary/english/inconsiderateness",
+        "https://dictionary.cambridge.org/us/dictionary/english/inconsiderably",
+        "https://www.collinsdictionary.com/dictionary/english/consider"
       ],
       "skipped_senses": [
         {
           "member": "consideration",
           "status": "skipped_low_value",
           "scope": "legal/payment senses"
+        },
+        {
+          "member": "consider",
+          "status": "skipped_low_value",
+          "scope": "obsolete scrutiny/remuneration senses"
+        },
+        {
+          "member": "considerable",
+          "status": "skipped_low_value",
+          "scope": "US chiefly dialectal noun use and old-fashioned non-standard adverb use"
+        },
+        {
+          "member": "considerateness",
+          "status": "skipped_low_value",
+          "scope": "rare careful-thought sense"
         }
       ],
       "usage_note": "consider + object; consider doing. Do not use consider about + object for contemplating an action. Low/optional members remain recognition-first."
@@ -465,7 +573,7 @@
         {
           "lemma": "ensure",
           "priority": "core",
-          "meaning_zh_hant": "確保",
+          "meaning_zh_hant": "確保；保障（保護義辨認即可；過時保險義 skipped_low_value）",
           "parts_of_speech": [
             "verb"
           ],
@@ -481,6 +589,12 @@
               "meaning_en": "make certain that a condition is met",
               "example": "The organisers must ensure access for wheelchair users.",
               "priority": "core"
+            },
+            {
+              "part_of_speech": "verb (recognition only)",
+              "meaning_en": "make safe or protect; not an active target today",
+              "example": "The measures aim to ensure the future of the wetland.",
+              "priority": "medium"
             }
           ],
           "inflections": [
@@ -488,22 +602,49 @@
             "ensured",
             "ensuring"
           ]
+        },
+        {
+          "lemma": "ensurer",
+          "priority": "optional",
+          "meaning_zh_hant": "確保某事者（辨認即可）",
+          "parts_of_speech": [
+            "noun"
+          ],
+          "verification_status": "verified",
+          "source_references": [
+            "https://www.collinsdictionary.com/dictionary/english/ensure"
+          ],
+          "senses_by_pos": [
+            {
+              "part_of_speech": "noun",
+              "meaning_en": "a person or agent that ensures something; constructed recognition example, not a preferred everyday model. Prefer the person responsible for ensuring consistent procedures",
+              "example": "The coordinator acts as an ensurer of consistent procedures.",
+              "priority": "optional"
+            }
+          ],
+          "example_status": "constructed_recognition_only"
         }
       ],
       "source_references": [
         "https://dictionary.cambridge.org/dictionary/learner-english/ensure",
-        "https://dictionary.cambridge.org/us/dictionary/essential-british-english/ensure"
+        "https://dictionary.cambridge.org/us/dictionary/essential-british-english/ensure",
+        "https://www.collinsdictionary.com/dictionary/english/ensure"
       ],
-      "usage_note": "No standalone noun/adjective derivative established in the scoped learner entries; assurance and insurance are not automatically assigned to this family. No universal simple antonym."
+      "usage_note": "Collins additionally records a protective sense and the derivative ensurer. The obsolete insurance sense is skipped_low_value. Assurance/insurance are not automatically assigned to this family; no universal simple antonym."
     }
   ],
   "prestudy_steps": [
-    "Read the consider and ensure family boxes in manageable chunks.",
-    "Prioritise core and priority members; retain low/optional cards for recognition.",
-    "Complete the written self-checks; listening and oral work are optional and not required today.",
+    "Complete due reviews and unfinished compare/community teaching first.",
+    "Preview consider/ensure only if time remains; low/optional derivatives are recognition-only.",
+    "Listening and oral work are deferred; no TTS task is required today.",
     "Return numbered answers and uncertainty notes to the teaching chat."
   ],
   "self_checks": [
+    {
+      "id": "scope",
+      "type": "preparation_order",
+      "prompt": "Before the new-family checks: complete due reviews and unfinished compare/community teaching in the teaching chat. Continue below only if time remains. Low/optional derivatives are recognition-only; no listening/oral task is required today."
+    },
     {
       "id": "sc1",
       "type": "recognition",
@@ -541,7 +682,7 @@
     "my_question": "string",
     "confidence": "clear | partial | uncertain"
   },
-  "inventory_scope": "Source-scoped teaching inventory; pending members are visible but unverified. This is not an exhaustive historical inventory.",
+  "inventory_scope": "Verified source-scoped inventory: 20 consider-family spellings and 2 ensure-family spellings. Optional derivative examples support recognition, not ordinary active production.",
   "confidence_metadata": {
     "allowed_values": [
       "clear",
@@ -550,5 +691,8 @@
     ],
     "counts_as_mastery_evidence": false
   },
-  "public_source_note": "Study lesson snapshot; no learner data."
+  "source_preparation_sha256": "19f4ef2aacfc66b25c04f1cdd7593479feef9c1b9686b8856952fb66ae19f449",
+  "verification_sha256": "52d156b7eb9cd1116234b49dddeae414acf3b271a3f3790f07198b256c4b02be",
+  "supersedes": "2026-11-11-core-01-v1-prestudy",
+  "public_source_note": "Verified lesson snapshot; no learner records."
 }
