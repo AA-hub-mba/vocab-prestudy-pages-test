@@ -1,13 +1,13 @@
 {
   "schema_version": "prestudy-snapshot-v1",
-  "content_version": "2026-11-09-core-01-v2-prestudy",
-  "lesson_date": "2026-11-09",
+  "content_version": "2026-11-10-core-01-v1-prestudy",
+  "lesson_date": "2026-11-10",
   "pack_id": "2026-W46-2026-11-09",
-  "lesson_id": "2026-11-09-core-01",
-  "page_id": "2026-11-09-core-01-v2-prestudy",
+  "lesson_id": "2026-11-10-core-01",
+  "page_id": "2026-11-10-core-01-v1-prestudy",
   "activation_status": "prestudy_ready",
-  "generated_at": "2026-11-09T15:40:52+08:00",
-  "source_sha256": "9a5a9b889e8903f68c730407d001b44c9fbb64966a9d4431c950b37d032bf6a8",
+  "generated_at": "2026-11-10T08:00:00+08:00",
+  "source_sha256": "733d9c6682f9d437ba6a4d078f84db3570ef9194b49d5848863a1301f087994c",
   "track": "core_everyday + context_responsive",
   "topic": "Comparing routines and clarifying a community plan",
   "canonical_writeback": "blocked_until_chat_validation",
@@ -313,105 +313,13 @@
         "https://dictionary.cambridge.org/dictionary/english/compare"
       ],
       "usage_note": "Both with and to can introduce a comparison. Compare X to Y also commonly means liken X to Y; do not mark to wrong automatically."
-    },
-    {
-      "lemma": "community",
-      "parts_of_speech": [
-        "noun"
-      ],
-      "meaning_en": "a group of people connected by place, identity, or activity",
-      "meaning_zh_hant": "社區；群體；共同體",
-      "inflections": [
-        "communities"
-      ],
-      "collocations": [
-        "local community",
-        "community event",
-        "community support"
-      ],
-      "near_synonyms": [
-        {
-          "lemma": "society",
-          "distinction": "broader and can refer to a whole social system; community usually suggests a connected group"
-        }
-      ],
-      "member_cards": [
-        {
-          "lemma": "community",
-          "parts_of_speech": [
-            "noun"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "a group of people connected by place, identity, or activity",
-              "example": "The local community organised a seasonal event.",
-              "priority": "core"
-            }
-          ],
-          "priority": "core",
-          "meaning_zh_hant": "社區；共同體；群體"
-        },
-        {
-          "lemma": "communal",
-          "parts_of_speech": [
-            "adjective"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adjective",
-              "meaning_en": "shared by or involving a community",
-              "example": "They used a communal space for the meeting.",
-              "priority": "high"
-            }
-          ],
-          "priority": "high",
-          "meaning_zh_hant": "共用的；社群的"
-        },
-        {
-          "lemma": "communally",
-          "parts_of_speech": [
-            "adverb"
-          ],
-          "senses_by_pos": [
-            {
-              "part_of_speech": "adverb",
-              "meaning_en": "in a way shared by a community",
-              "example": "The space is used communally.",
-              "priority": "low"
-            }
-          ],
-          "priority": "low",
-          "meaning_zh_hant": "共同地；集體地"
-        },
-        {
-          "lemma": "communality",
-          "parts_of_speech": [
-            "noun"
-          ],
-          "meaning_zh_hant": "共同性；共享特質",
-          "priority": "low",
-          "senses_by_pos": [
-            {
-              "part_of_speech": "noun",
-              "meaning_en": "the quality of sharing interests or resources",
-              "example": "The project encouraged a sense of communality.",
-              "priority": "low"
-            }
-          ]
-        }
-      ],
-      "british_pronunciation": "/kəˈmjuː.nə.ti/",
-      "source_references": [
-        "https://dictionary.cambridge.org/dictionary/english/community"
-      ]
     }
   ],
   "prestudy_steps": [
-    "Read the three family cards and member cards.",
-    "Say the canonical lemmas and important members aloud with en-GB TTS.",
+    "Review the clarify and compare family boxes.",
+    "Say each lemma and member aloud with en-GB TTS.",
     "Complete the five self-checks.",
-    "Record any uncertainty about a sense, part of speech, or collocation."
+    "Return numbered answers and uncertainty notes in chat."
   ],
   "self_checks": [
     {
@@ -432,7 +340,7 @@
     {
       "id": "sc4",
       "type": "new_context",
-      "prompt": "Complete: The local ______ organised a volunteer event."
+      "prompt": "Complete: I asked for a ______ because the instructions were unclear."
     },
     {
       "id": "sc5",
@@ -441,7 +349,7 @@
     }
   ],
   "uncertainty_note_schema": {
-    "item": "clarify | compare | community | clarification | comparative | communal",
+    "item": "clarify | compare | clarification | clarity | clarifying | comparison | comparative | comparatively",
     "uncertainty_type": "meaning | pronunciation | collocation | synonym | grammar | other",
     "my_question": "string",
     "confidence": "clear | partial | uncertain"
